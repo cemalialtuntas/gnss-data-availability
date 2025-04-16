@@ -19,3 +19,19 @@ The CDDIS GNSS Data Availability Checker is a PowerShell script that checks avai
 ```
 
 For more detailed information, parameter descriptions, and advanced usage examples, please refer to the [CDDIS GNSS Data Availability Checker documentation](script/README_for_CDDIS_GNSS_Data_Availability_Checker.md).
+
+### IGN ESP GNSS Data Availability Checker
+
+The IGN ESP GNSS Data Availability Checker is a PowerShell script designed to check the availability of hourly GNSS observation data from the Spanish National Geographic Institute (IGN) HTTPS archive. The script supports:
+
+- Hourly (1-second) data checks
+- HTTPS web requests for checking availability
+- CSV and text report outputs
+
+#### Basic Usage
+
+```powershell
+.\script\IGN_ESP_GNSS_Data_Availability_Checker.ps1 -stationId "BCL1" -startDate "2025-01-01" -endDate "2025-01-05"
+```
+
+For more detailed information, parameter descriptions, and usage examples, please refer to the [IGN ESP GNSS Data Availability Checker documentation](script/README_for_IGN_ESP_GNSS_Data_Availability_Checker.md).
