@@ -35,3 +35,20 @@ The IGN ESP GNSS Data Availability Checker is a PowerShell script designed to ch
 ```
 
 For more detailed information, parameter descriptions, and usage examples, please refer to the [IGN ESP GNSS Data Availability Checker documentation](script/README_for_IGN_ESP_GNSS_Data_Availability_Checker.md).
+
+### PGC CANADA GNSS Data Availability Checker
+
+The PGC CANADA GNSS Data Availability Checker is a PowerShell script designed to check the availability of high-rate (15-minute interval) GNSS observation data from the Natural Resources Canada (NRCan) PGC (Pacific Geoscience Centre) anonymous FTP archive. The script supports:
+
+- High-rate (15-minute) data checks (RINEX v3)
+- Parallel processing for improved performance
+- FTP directory caching
+- CSV and text report outputs
+
+#### Basic Usage
+
+```powershell
+.\script\PGC_CAN_GNSS_Data_Availability_Checker.ps1 -stationId "ALBH" -startDate "2024-01-01" -endDate "2024-01-10"
+```
+
+For more detailed information, parameter descriptions, and usage examples, please refer to the [PGC CANADA GNSS Data Availability Checker documentation](script/README_for_PGC_CAN_GNSS_Data_Availability_Checker.md).
