@@ -18,7 +18,7 @@ The CDDIS GNSS Data Availability Checker is a PowerShell script that checks avai
 .\script\CDDIS_GNSS_Data_Availability_Checker.ps1 -stationId "BRST" -startDate "2025-01-01" -endDate "2025-01-31" -dataType "daily" -rinexVersion 3
 ```
 
-For more detailed information, parameter descriptions, and advanced usage examples, please refer to the [CDDIS GNSS Data Availability Checker documentation](script/README_for_CDDIS_GNSS_Data_Availability_Checker.md).
+For more detailed information, parameter descriptions, and advanced usage examples, please refer to the [CDDIS GNSS Data Availability Checker documentation](docs/README_for_CDDIS_GNSS_Data_Availability_Checker.md).
 
 ### IGN ESP GNSS Data Availability Checker
 
@@ -34,7 +34,7 @@ The IGN ESP GNSS Data Availability Checker is a PowerShell script designed to ch
 .\script\IGN_ESP_GNSS_Data_Availability_Checker.ps1 -stationId "BCL1" -startDate "2025-01-01" -endDate "2025-01-05"
 ```
 
-For more detailed information, parameter descriptions, and usage examples, please refer to the [IGN ESP GNSS Data Availability Checker documentation](script/README_for_IGN_ESP_GNSS_Data_Availability_Checker.md).
+For more detailed information, parameter descriptions, and usage examples, please refer to the [IGN ESP GNSS Data Availability Checker documentation](docs/README_for_IGN_ESP_GNSS_Data_Availability_Checker.md).
 
 ### PGC CANADA GNSS Data Availability Checker
 
@@ -51,4 +51,4 @@ The PGC CANADA GNSS Data Availability Checker is a PowerShell script designed to
 .\script\PGC_CAN_GNSS_Data_Availability_Checker.ps1 -stationId "ALBH" -startDate "2024-01-01" -endDate "2024-01-10"
 ```
 
-For more detailed information, parameter descriptions, and usage examples, please refer to the [PGC CANADA GNSS Data Availability Checker documentation](script/README_for_PGC_CAN_GNSS_Data_Availability_Checker.md).
+For more detailed information, parameter descriptions, and usage examples, please refer to the [PGC CANADA GNSS Data Availability Checker documentation](docs/README_for_PGC_CAN_GNSS_Data_Availability_Checker.md).
